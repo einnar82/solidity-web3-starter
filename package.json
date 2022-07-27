@@ -1,7 +1,7 @@
 {
   "name": "solidity-web3-starter",
   "version": "1.0.0",
-  "description": "My personal Solidity and Web3 Starter Kit for Ethereum Development.",
+  "description": "My personal Solidity and Web3 Starter Kit for Ethereum Development using Node.js",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -9,12 +9,14 @@
   "scripts": {
     "dev": "nodemon --exec babel-node -- ./src/server.js",
     "test": "truffle test",
+    "build": "rimraf -R ./src/abis/*.json && truffle compile",
     "start": "babel-node ./src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rannie Ollit",
   "license": "ISC",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.7.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
