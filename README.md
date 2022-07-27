@@ -18,4 +18,5 @@ To setup this project, simply execute the command below:
 
 
 To start in the development, run `npm run dev`.
+
 When building your smart contracts, run `npm run build` and `npm start` to run on the production mode.
