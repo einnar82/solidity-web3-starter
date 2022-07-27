@@ -5,17 +5,18 @@ My personal Solidity and Web3 Starter Kit for Ethereum Development using Node.js
 Dependencies:
 
 - [Truffle](https://trufflesuite.com/)
- - [Openzepplin](https://docs.openzeppelin.com/contracts/4.x/)
- - [Express](https://expressjs.com/)
- - [Mocha](https://mochajs.org/)
- - [Chai](https://www.chaijs.com/)
+- [Openzepplin](https://docs.openzeppelin.com/contracts/4.x/)
+- [Web3.js](https://web3js.readthedocs.io)
+- [Express](https://expressjs.com/)
+- [Mocha](https://mochajs.org/)
+- [Chai](https://www.chaijs.com/)
 
-Instructions:
+Instructions
 -
+
 To setup this project, simply execute the command below:
 
     npm install
-
 
 To start in the development, run `npm run dev`.
 
